@@ -1,0 +1,45 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box; 
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+header{
+  background-color: #003366;
+  color:white;
+  padding:20px 0;
+}
+
+form{
+  padding-top: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width:300px !important;
+}
+.form-group{
+  margin:0;
+}
+
+.card-deck {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.lb-number, .lb-caption{
+  font-family: inherit;
+}
+
+.alert{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:10;
+}
